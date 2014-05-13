@@ -3,7 +3,7 @@
 
 > [swindle.me](http://swindle.me)
 > [jason.swindle@gmail.com](mailto:jason.swindle@gmail.com)
-> (256) 275-4228
+> +1 (256) 275-4228
 
 ------
 
@@ -11,6 +11,16 @@
 
 **University of North Alabama** *December 2008*
     Bachelor of Business Administration majoring in Computer Information Systems with a concentration in Enterprise Information Systems; ABET accredited.
+
+------
+
+### Certifications
+
+**SaltStack Certified Engineer** *13th Globally* __January 2014__
+
+**CompTIA Network+** *2009 Edition* __November 2009__
+
+**CompTIA A+ IT Technician** *220-602* __July 2007__
 
 ------
 
@@ -41,10 +51,8 @@
 
 ------
 
-### Certifications
+### Footer
 
-**SaltStack Certified Engineer** *13th Globally* __January 2014__
+Jason L. Swindle :: [jason.swindle@gmail.com](mailto:jason.swindle@gmail.com) :: +1 (256) 275-4228
 
-**CompTIA Network+** *2009 Edition* __November 2009__
-
-**CompTIA A+ IT Technician** *220-602* __July 2007__
+------
