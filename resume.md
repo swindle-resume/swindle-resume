@@ -26,7 +26,17 @@
 
 ### Experience
 
-**Rackspace US, Inc.** *Cloud Launch Manager I* __February 2013 to Present__
+<!--
+**Rackspace US, Inc. Data Stores** *Linux Operations Administrator I* __April 2014 to Present__
+    &bull; .
+    &bull; .
+    &bull; .
+    &bull; .
+    &bull; .
+    &bull; .
+-->
+
+**Rackspace US, Inc.** *Cloud Launch Manager I* __February 2013 to April 2014__
     &bull; Handled 60 customers for 60 days as they started in Managed Rackspace Cloud.
     &bull; Built strong relationships with 3rd party vendors like New Relic, SaltStack, and Cloud Flare.
     &bull; Architected scalable Cloud deployments to allow a customer to grow with their needs.
