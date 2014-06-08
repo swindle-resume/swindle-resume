@@ -3,16 +3,26 @@
 
 > [swindle.me](http://swindle.me)
 > [jason.swindle@gmail.com](mailto:jason.swindle@gmail.com)
-> +1 (256) 275-4228
+> [+1 (256) 275 - 4228](tel:+12562754228)
 
-------
+- - -
+
+### Technical
+
+1. [SaltStack](http://www.saltstack.com/) :: [Salt](http://www.saltstack.com/)
+1. [Vagrant](https://www.vagrantup.com/)
+1. [Docker](https://www.docker.io/)
+1. [Github](https://github.com/) :: [Git](http://git-scm.com/)
+1. [Markdown](http://daringfireball.net/projects/markdown/) :: [YAML](http://www.yaml.org/)
+
+- - -
 
 ### Education
 
 **University of North Alabama** *December 2008*
-    Bachelor of Business Administration majoring in Computer Information Systems with a concentration in Enterprise Information Systems; ABET accredited.
+    Bachelor of Business Administration majoring in Computer Information Systems with a concentration in Enterprise Information Systems; ABET, Inc. accredited.
 
-------
+- - -
 
 ### Certifications
 
@@ -22,7 +32,7 @@
 
 **CompTIA A+ IT Technician** *220-602* __July 2007__
 
-------
+- - -
 
 ### Experience
 
@@ -36,7 +46,7 @@
     &bull; .
 -->
 
-**Rackspace US, Inc.** *Cloud Launch Manager I* __February 2013 to April 2014__
+**Rackspace US, Inc.** *Cloud Launch Manager I* __February 2013 to Present__
     &bull; Handled 60 customers for 60 days as they started in Managed Rackspace Cloud.
     &bull; Built strong relationships with 3rd party vendors like New Relic, SaltStack, and Cloud Flare.
     &bull; Architected scalable Cloud deployments to allow a customer to grow with their needs.
@@ -59,13 +69,13 @@
     &bull; Installed point-to-multipoint wireless equipment at the customers premise.
     &bull; Supported our in-house e-mail via POP3, IMAP, SMTP, and web interface.
 
-------
+- - -
 
 ### Footer
 
-Jason L. Swindle :: [jason.swindle@gmail.com](mailto:jason.swindle@gmail.com) :: +1 (256) 275-4228
+Jason L. Swindle :: [jason.swindle@gmail.com](mailto:jason.swindle@gmail.com) :: [+1 (256) 275 - 4228](tel:+12562754228)
 
-------
+- - -
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
