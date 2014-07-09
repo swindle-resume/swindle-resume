@@ -1,7 +1,7 @@
 # Jason L. Swindle
 ## IT Professional
 
-> [swindle.me](http://swindle.me)
+> [resume.swindle.me](http://resume.swindle.me)
 > [jason.swindle@gmail.com](mailto:jason.swindle@gmail.com)
 > [+1 (256) 275 - 4228](tel:+12562754228)
 
@@ -48,7 +48,7 @@
     &bull; Successfully deployed SaltStack to two Data Centers with no customer impact or downtime.
     &bull; Implemented a SaltStack Master of Masters, via Docker, to manage 6+ SaltStack Masters.
     &bull; First contact on all tickets and phone calls during first shift.
-    &bull; Helped create classes for Rackspace's Training program, Rackspace University, to create a culture of improvement and education.
+    &bull; Helped create classes for Rackspace's training program to create a culture of improvement and education.
 
 **Rackspace US, Inc.** *Cloud Launch Manager I* __February 2013 to April 2014__
     &bull; Maintained an account base of 60 customers for the duration of their first 60 days as a Rackspace Customer.
