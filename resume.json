@@ -1,0 +1,82 @@
+{
+  "schemaVersion": {
+    "semver": "0.0.1"
+  },
+  "bio": {
+    "firstName": "Jason",
+    "lastName": "Swindle",
+    "email": {
+      "personal": "jason.swindle@gmail.com"
+    },
+    "phone": {
+      "personal": "+1 (256) 275-4228"
+    },
+    "summary": "Coming soon...",
+    "location": {
+      "city": "San Antonio",
+      "countryCode": "US",
+      "state": "Texas"
+    },
+    "websites": {
+      "resume": "http://resume.swindle.me",
+      "personal": "http://swindle.me"
+    },
+    "profiles": {
+      "github": "jasonswindle"
+    }
+  },
+  "work": [
+    {
+      "company": "Rackspace US, Inc.",
+      "position": "Linux Operations Administrator I",
+      "website": "https://www.rackspace.com/",
+      "startDate": "2014-04-29",
+      "summary": "Give an overview of your responsibilities at the company",
+      "highlights": [
+        "Awesome text coming soon!"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of North Alabama",
+      "startDate": "2004-06-01",
+      "endDate": "2008-12-01",
+      "area": "Computer Information Systems",
+      "studyType": "Bachelor"
+    }
+  ],
+  "awards": [
+    {
+      "title": "SaltStack Certified Engineer",
+      "date": "2014-01-29",
+      "awarder": "SaltStack, Inc."
+    }
+  ],
+  "skills": [
+      {
+      "name": "DevOps",
+      "keywords": [
+        "SaltStack / Salt",
+        "Github / Git",
+        "Vagrant",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Markup Languages ",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "Markdown",
+        "YAML"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Joseph Palumbo",
+      "reference": "..."
+    }
+  ]
+}
