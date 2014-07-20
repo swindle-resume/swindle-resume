@@ -1,7 +1,4 @@
 {
-  "schemaVersion": {
-    "semver": "0.0.1"
-  },
   "bio": {
     "firstName": "Jason",
     "lastName": "Swindle",
@@ -33,7 +30,60 @@
       "startDate": "2014-04-29",
       "summary": "Give an overview of your responsibilities at the company",
       "highlights": [
-        "Awesome text coming soon!"
+        "Helped removed 50 terabyte of backups, saving Rackspace money on a 3rd party backup service.",
+        "Linux operations administrator for Rackspace Cloud Databases (OpenStack Trove).",
+        "Successfully deployed SaltStack to two Data Centers with no customer impact or downtime.",
+        "Implemented a SaltStack Master of Masters, via Docker, to manage 6+ SaltStack Masters.",
+        "First contact on all tickets and phone calls during first shift.",
+        "Helped create classes for Rackspace's Training program, Rackspace University, to create a culture of improvement and education."
+      ]
+    },
+    {
+      "company": "Rackspace US, Inc.",
+      "position": "Cloud Launch Manager I",
+      "website": "https://www.rackspace.com/",
+      "startDate": "2013-02-12",
+      "endDate": "2014-04-29",
+      "summary": "Give an overview of your responsibilities at the company",
+      "highlights": [
+        "Maintained an account base of 60 customers for the duration of their first 60 days as a Rackspace Customer.",
+        "Built strong relationships with 3rd party vendors like New Relic, SaltStack, and CloudFlare.",
+        "Architected scalable Cloud deployments to allow a customer to grow with their needs.",
+        "Designed, deployed, and managed the infrastructure for several internal tools.",
+        "Became a SaltStack Certified Engineer and gave a talk at SaltConf 2014.",
+        "Gave a talk at Cloud Mafia about Rackspace, DevOps, and SaltStack."
+      ]
+    },
+    {
+      "company": "Rackspace US, Inc.",
+      "position": "Cloud Sites Linux Administrator I",
+      "website": "https://www.rackspace.com/",
+      "startDate": "2010-08-16",
+      "endDate": "2013-02-12",
+      "summary": "Give an overview of your responsibilities at the company",
+      "highlights": [
+        "Provided Fanatical Support to customers and Rackers via Phone, Chat, and tickets.",
+        "A strong understanding of Rackspace's infrastructure and how to support it.",
+        "Escalation paths for customers needing complex technical help or needed to air grievances.",
+        "A great knowledge of our customers and how issues/outages impact the front-line support.",
+        "Close partnership with System Operations to resolve customer or system issues.",
+        "Self-driven without direct supervision and managed the customer load on the support floor."
+      ]
+    },
+    {
+      "company": "Computer Sales and Services, Inc.",
+      "position": "Support Specialist",
+      "website": "http://www.cssla.com/",
+      "startDate": "2009-05-19",
+      "endDate": "2010-08-16",
+      "summary": "Give an overview of your responsibilities at the company",
+      "highlights": [
+        "Monitored 300+ network items via SNMP in Cacti and The Dude.",
+        "The main support agent for the critical Point-to-Point wireless network for Iberville Bank and all its branches. This support was provided to the Information System Officer via e-mail, phone, and SMS.",
+        "Implemented an inventory system via Excel to track asset deployed and asset on-hand.",
+        "Provide phone-based support for website hosting, FTP, and Internet service.",
+        "Installed point-to-multipoint wireless equipment at the customers premise.",
+        "Supported our in-house e-mail via POP3, IMAP, SMTP, and web interface."
       ]
     }
   ],
