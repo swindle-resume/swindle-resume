@@ -1,6 +1,0 @@
-#avoid generated and instlled files#
-node_modules
-resume.html
-*.pdf
-
-*.swp
