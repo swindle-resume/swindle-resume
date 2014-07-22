@@ -128,5 +128,9 @@
       "name": "Joseph Palumbo",
       "reference": "..."
     }
+    {
+      "name": "Alan Bush",
+      "reference": "I've had the opportunity to work with Jason Swindle since early 2013. In this time I have seen Jason learn many new skills. Our team needed to learn more about configuration management tools, and Jason went out and learned SaltStack. He didn't stop there, though - he went on to use Salt to build and maintain the infrastructure for several internal tools. Then he went on to speak about Salt at conferences, including the first ever Salt Conf. Then he became the 13th person in the world to earn the 'SaltStack Certified Engineer' certification. Recently, his project has necessitated using Docker. I have no doubt that he will become a master of Docker, the same way he has become a master of Salt. Jason is an extremely technical, fast learning, intelligent asset to any team in any organization. Hire this guy."
+    }
   ]
 }
