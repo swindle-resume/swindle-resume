@@ -67,6 +67,7 @@
                 </div> <!-- /col -->
             </div> <!-- /row -->
             {{/work.length}}
+            <hr />
         </div> <!-- /container -->
         <div class="container">
             {{#education.length}}
@@ -84,11 +85,10 @@
                             <li>{{.}}</li>
                         {{/highlights}}
                     </ul>
-                    <hr />
                 </div> <!-- /col -->
-                <hr />
             </div> <!-- /row -->
             {{/education.length}}
+            <hr />
         </div> <!-- /container -->
         <div class="container">
             {{#work.length}}
@@ -112,14 +112,14 @@
                 </div> <!-- /col -->
             </div> <!-- /row -->
             {{/work.length}}
+            <hr />
         </div> <!-- /container -->
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-12 small">
+            <div class="container text-center small">
+                <footer>
                     {{bio.firstName}} {{bio.lastName}} :: {{bio.phone.personal}} :: {{bio.email.personal}}
-                </div> <!-- /col -->
-            </div> <!-- /row -->
-        </div> <!-- /container -->
+                </footer>
+                <hr />
+            </div> <!-- /container -->
     </div> <!-- /container-fluid -->
   </body>
 </html>
