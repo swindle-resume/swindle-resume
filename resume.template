@@ -17,7 +17,7 @@
     <style>
         body { font-family: 'Noto Sans', sans-serif; }
         h1, h2, h3, h4, h5, h6 { font-family: 'Noto Serif', serif; }
-        .container-fluid { border: solid #d22042; border-width: 1px 0 0 0; }
+        .container-fluid { border: solid #d22042; border-width: 2px 0 0 0; }
     </style>
   </head>
   <body>
@@ -27,7 +27,7 @@
                 <div class="col-xs-12 col-md-8 text-uppercase">
                     <h1>{{bio.firstName}} {{bio.lastName}}</h1>
                 </div> <!-- /col -->
-                <div class="col-xs-6 col-md-4">
+                <div class="col-xs-6 col-md-4 small">
                     {{#bio.phone.personal}}
                     <strong>Phone:</strong>{{bio.phone.personal}}<br />
                     {{/bio.phone.personal}}
@@ -107,7 +107,6 @@
                         <li>{{.}}</li>
                         {{/highlights}}
                     </ul>
-                    <hr />
                     {{/work}}
                 </div> <!-- /col -->
             </div> <!-- /row -->
