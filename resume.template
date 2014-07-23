@@ -17,16 +17,16 @@
     <style>
         body { font-family: 'Noto Sans', sans-serif; }
         h1, h2, h3, h4, h5, h6 { font-family: 'Noto Serif', serif; }
-        .container-fluid { border: solid #d22042; border-width: 2px 0 0 0; }
+        .container-fluid { border: solid #d22042; border-width: 1px 0 0 0; }
     </style>
   </head>
   <body>
     <div class="container-fluid">
-    <div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-8 text-uppercase">
                     <h1>{bio.firstName}} {{bio.lastName}}</h1>
-                </div>
+                </div> <!-- /col -->
                 <div class="col-xs-6 col-md-4">
                     {{#bio.phone.personal}}
                     <strong>Phone:</strong>{{bio.phone.personal}}<br />
@@ -40,9 +40,10 @@
                     {{#bio.profiles.github}}
                     <strong>Github:</strong><a href="https://github.com/{{bio.profiles.github}}">{{bio.profiles.github}}</a><br />
                     {{/bio.profiles.github}
-                </div>
-            </div>
-
+                </div> <!-- /col -->
+            </div> <!-- /row -->
+        </div> <!-- /container -->
+        <div class="container">
             {{#work.length}}
             <div class="row">
                 <div class="col-xs-6 col-md-4">
@@ -62,12 +63,12 @@
                             </li>
                         </ul>
                         {{/skills}}
-                    </div>
-                </div>
-            </div>
+                    </div> <!-- /col -->
+                </div> <!-- /col -->
+            </div> <!-- /row -->
             {{/work.length}}
-
-
+        </div> <!-- /container -->
+        <div class="container">
             {{#education.length}}
             <div class="row">
                 <div class="col-xs-6 col-md-4">
@@ -84,15 +85,17 @@
                         {{/highlights}}
                     </ul>
                     <hr />
-                </div>
-            </div>
+                </div> <!-- /col -->
+                <hr />
+            </div> <!-- /row -->
             {{/education.length}}
-
+        </div> <!-- /container -->
+        <div class="container">
             {{#work.length}}
             <div class="row">
                 <div class="col-xs-6 col-md-4">
                     <h3>Work</h3>
-                </div>
+                </div> <!-- /col -->
                 <div class="col-xs-12 col-md-8">
                     {{#work}}
                     <h3>{{company}}</h3>
@@ -106,15 +109,10 @@
                     </ul>
                     <hr />
                     {{/work}}
-                </div>
-            </div>
+                </div> <!-- /col -->
+            </div> <!-- /row -->
             {{/work.length}}
-        </div>
-    </div> <!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+        </div> <!-- /container -->
+    </div> <!-- /container-fluid -->
   </body>
 </html>
