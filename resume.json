@@ -1,26 +1,28 @@
 {
-  "bio": {
-    "firstName": "Jason",
-    "lastName": "Swindle",
-    "email": {
-      "personal": "jason.swindle@gmail.com"
-    },
-    "phone": {
-      "personal": "+1 (256) 275-4228"
-    },
+  "basics": {
+    "name": "Jason Swindle",
+    "label": "IT Professional",
+    "email": "jason.swindle@gmail.com",
+    "phone": "+1 (256) 275-4228",
+    "website": "http://swindle.me",
     "summary": "Coming soon...",
     "location": {
       "city": "San Antonio",
       "countryCode": "US",
-      "state": "Texas"
+      "region": "Texas"
     },
-    "websites": {
-      "resume": "http://resume.swindle.me",
-      "personal": "http://swindle.me"
-    },
-    "profiles": {
-      "github": "jasonswindle"
-    }
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "jasonswindle",
+        "url": "https://github.com/JasonSwindle"
+      },
+      {
+        "network": "Keybase",
+        "username": "jasonswindle",
+        "url": "https://keybase.io/jasonswindle"
+      }
+    ]
   },
   "work": [
     {
@@ -28,7 +30,8 @@
       "position": "Linux Operations Administrator I",
       "website": "https://www.rackspace.com/",
       "startDate": "2014-04-29",
-      "summary": "Give an overview of your responsibilities at the company",
+      "endDate": "",
+      "summary": "Bacon ipsum dolor sit amet spare ribs leberkas short loin pork loin kevin. Bresaola pork chop beef ribs jowl short loin. Flank bresaola sirloin tail. Beef pork shoulder t-bone tongue, prosciutto corned beef chicken ball tip jowl strip steak fatback leberkas ribeye kevin. Boudin sirloin fatback chuck salami doner. Cow ribeye pastrami frankfurter andouille. Brisket short loin salami bacon.",
       "highlights": [
         "Helped removed 50 terabyte of backups, saving Rackspace money on a 3rd party backup service.",
         "Linux operations administrator for Rackspace Cloud Databases (OpenStack Trove).",
@@ -44,7 +47,7 @@
       "website": "https://www.rackspace.com/",
       "startDate": "2013-02-12",
       "endDate": "2014-04-29",
-      "summary": "Give an overview of your responsibilities at the company",
+      "summary": "Ball tip jowl boudin rump strip steak andouille leberkas swine porchetta tri-tip beef ribs drumstick. Tri-tip corned beef cow pig turkey landjaeger sirloin sausage kevin pork belly. Prosciutto chicken ribeye jowl meatball. T-bone ham sausage, cow venison andouille turkey tri-tip hamburger flank pork chop. Biltong jerky meatloaf tail fatback meatball prosciutto filet mignon tongue.",
       "highlights": [
         "Maintained an account base of 60 customers for the duration of their first 60 days as a Rackspace Customer.",
         "Built strong relationships with 3rd party vendors like New Relic, SaltStack, and CloudFlare.",
@@ -60,7 +63,7 @@
       "website": "https://www.rackspace.com/",
       "startDate": "2010-08-16",
       "endDate": "2013-02-12",
-      "summary": "Give an overview of your responsibilities at the company",
+      "summary": "Venison tail kielbasa bacon hamburger flank beef ribs corned beef. Turducken short loin capicola, ball tip short ribs jerky kielbasa sausage kevin brisket fatback jowl strip steak. Short ribs tenderloin leberkas, biltong meatball capicola bacon. Chicken biltong ball tip pig, spare ribs filet mignon venison cow brisket kevin doner sausage shankle. Strip steak short ribs bacon, pork chop sirloin meatloaf pork loin jowl chicken pork belly prosciutto. Capicola pork belly corned beef bacon beef strip steak hamburger. Kielbasa venison shank swine sirloin drumstick shankle tri-tip beef ham.",
       "highlights": [
         "Provided Fanatical Support to customers and Rackers via Phone, Chat, and tickets.",
         "A strong understanding of Rackspace's infrastructure and how to support it.",
@@ -76,7 +79,7 @@
       "website": "http://www.cssla.com/",
       "startDate": "2009-05-19",
       "endDate": "2010-08-16",
-      "summary": "Give an overview of your responsibilities at the company",
+      "summary": "Ham andouille beef spare ribs, shoulder jowl chicken. Corned beef t-bone fatback doner shoulder ham hock leberkas pastrami spare ribs strip steak drumstick. Cow chuck tail, spare ribs jowl frankfurter pastrami. Flank strip steak filet mignon biltong. Porchetta salami tail, turkey spare ribs drumstick andouille meatloaf ground round leberkas.",
       "highlights": [
         "Monitored 300+ network items via SNMP in Cacti and The Dude.",
         "The main support agent for the critical Point-to-Point wireless network for Iberville Bank and all its branches. This support was provided to the Information System Officer via e-mail, phone, and SMS.",
@@ -106,6 +109,7 @@
   "skills": [
     {
       "name": "DevOps",
+      "level": "test",
       "keywords": [
         "SaltStack / Salt",
         "Github / Git",
