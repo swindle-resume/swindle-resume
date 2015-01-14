@@ -236,7 +236,10 @@ table {
   border-spacing: 0;
 }
 
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif);
 body.pdf {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300;
   color: black;
 }
 body.pdf a {
@@ -258,6 +261,13 @@ body.pdf .resume {
 }
 body.pdf a[href$='.pdf'] {
   display: none;
+}
+body.pdf h1,
+body.pdf h2,
+body.pdf h3,
+body.pdf h4,
+body.pdf ul dl dt {
+  font-family: 'Noto Serif', serif;
 }
 body.pdf h1 {
   letter-spacing: 0;
@@ -283,8 +293,9 @@ body.pdf h3+p {
 }
 body.pdf blockquote {
   top: 40px;
-  right: 50px;
+  right: 82px;
   position: absolute;
+  text-align: right;
 }
 body.pdf ul li {
   width: 28%;
@@ -306,9 +317,10 @@ body.pdf ul dl dd {
 body.pdf ol {
   float: left;
   width: 84%;
-  margin: .7em 0 0;
+  margin: 0;
 }
 body.pdf ol li {
+  font-size: 85%;
   width: 33%;
   margin: 0;
 }
@@ -321,11 +333,17 @@ body.pdf ol li:nth-child(3) {
   border-top: none;
 }
 body.pdf dl {
-  margin: .7em 0 0;
+  margin: 0;
   page-break-inside: avoid !important;
   display: block;
   width: 84%;
   float: left;
+}
+body.pdf dl dt {
+  font-weight: 500;
+}
+body.pdf dl dd {
+  font-size: 89%;
 }
 body.pdf dl strong {
   float: right;
@@ -464,7 +482,7 @@ ol li {
   float: left;
   list-style: none;
   line-height: 24px;
-  font-size: 85%;
+  font-size: 85;
 }
 ol li:nth-child(1) {
   border-top: none;
@@ -618,7 +636,7 @@ dl em {
 <h2>IT Professional</h2>
 
 <blockquote>
-  <p><a href="resume.pdf">Download PDF</a><br />
+  <p><a href="Jason_Swindle_Resume.pdf">Download PDF</a><br />
   <a href="jason.swindle@gmail.com">jason.swindle@gmail.com</a><br />
   <a href="tel:+12562754228">+1 (256) 275 - 4228</a></p>
 </blockquote>
