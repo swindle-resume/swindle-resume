@@ -1,17 +1,25 @@
 {
   "basics": {
     "name": "Jason Swindle",
-    "label": "IT Professional",
+    "label": "DevOps Professional",
+    "picture": "",
     "email": "jason.swindle@gmail.com",
-    "phone": "+1 (256) 275-4228",
-    "website": "http://swindle.me",
-    "summary": "Coming soon...",
+    "phone": "+1 (256) 275 - 4228",
+    "website": "resume.swindle.me",
+    "summary": "",
     "location": {
-      "city": "San Antonio",
+      "address": "",
+      "postalCode": "",
+      "city": "Seattle",
       "countryCode": "US",
-      "region": "Texas"
+      "region": "Washington"
     },
     "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jasonswindle",
+        "url": "https://www.linkedin.com/in/jasonswindle"
+      },
       {
         "network": "Github",
         "username": "jasonswindle",
@@ -26,19 +34,30 @@
   },
   "work": [
     {
+      "company": "Amazon Web Services",
+      "position": "Cloud Support Engineer I (Level 4)",
+      "website": "https://aws.amazon.com/",
+      "startDate": "2015-04-13",
+      "endDate": "Present",
+      "summary": "...",
+      "highlights": [
+        "..."
+      ]
+    },
+    {
       "company": "Rackspace US, Inc.",
       "position": "Linux Operations Administrator I",
       "website": "https://www.rackspace.com/",
       "startDate": "2014-04-29",
-      "endDate": "",
-      "summary": "Bacon ipsum dolor sit amet spare ribs leberkas short loin pork loin kevin. Bresaola pork chop beef ribs jowl short loin. Flank bresaola sirloin tail. Beef pork shoulder t-bone tongue, prosciutto corned beef chicken ball tip jowl strip steak fatback leberkas ribeye kevin. Boudin sirloin fatback chuck salami doner. Cow ribeye pastrami frankfurter andouille. Brisket short loin salami bacon.",
+      "endDate": "2015-03-19",
+      "summary": "...",
       "highlights": [
         "Helped removed 50 terabyte of backups, saving Rackspace money on a 3rd party backup service.",
         "Linux operations administrator for Rackspace Cloud Databases (OpenStack Trove).",
         "Successfully deployed SaltStack to two Data Centers with no customer impact or downtime.",
         "Implemented a SaltStack Master of Masters, via Docker, to manage 6+ SaltStack Masters.",
         "First contact on all tickets and phone calls during first shift.",
-        "Helped create classes for Rackspace's Training program, Rackspace University, to create a culture of improvement and education."
+        "Helped create classes for Rackspace’s training program to create a culture of improvement and education."
       ]
     },
     {
@@ -47,7 +66,7 @@
       "website": "https://www.rackspace.com/",
       "startDate": "2013-02-12",
       "endDate": "2014-04-29",
-      "summary": "Ball tip jowl boudin rump strip steak andouille leberkas swine porchetta tri-tip beef ribs drumstick. Tri-tip corned beef cow pig turkey landjaeger sirloin sausage kevin pork belly. Prosciutto chicken ribeye jowl meatball. T-bone ham sausage, cow venison andouille turkey tri-tip hamburger flank pork chop. Biltong jerky meatloaf tail fatback meatball prosciutto filet mignon tongue.",
+      "summary": "...",
       "highlights": [
         "Maintained an account base of 60 customers for the duration of their first 60 days as a Rackspace Customer.",
         "Built strong relationships with 3rd party vendors like New Relic, SaltStack, and CloudFlare.",
@@ -63,11 +82,11 @@
       "website": "https://www.rackspace.com/",
       "startDate": "2010-08-16",
       "endDate": "2013-02-12",
-      "summary": "Venison tail kielbasa bacon hamburger flank beef ribs corned beef. Turducken short loin capicola, ball tip short ribs jerky kielbasa sausage kevin brisket fatback jowl strip steak. Short ribs tenderloin leberkas, biltong meatball capicola bacon. Chicken biltong ball tip pig, spare ribs filet mignon venison cow brisket kevin doner sausage shankle. Strip steak short ribs bacon, pork chop sirloin meatloaf pork loin jowl chicken pork belly prosciutto. Capicola pork belly corned beef bacon beef strip steak hamburger. Kielbasa venison shank swine sirloin drumstick shankle tri-tip beef ham.",
+      "summary": "...",
       "highlights": [
-        "Provided Fanatical Support to customers and Rackers via Phone, Chat, and tickets.",
-        "A strong understanding of Rackspace's infrastructure and how to support it.",
-        "Escalation paths for customers needing complex technical help or needed to air grievances.",
+        "Provided Fanatical Support to customers and Rackers via phone, chat, and tickets.",
+        "A strong understanding of the Cloud Sites infrastructure and how to support it.",
+        "Escalation paths for customers needing complex technical help or needing to air grievances.",
         "A great knowledge of our customers and how issues/outages impact the front-line support.",
         "Close partnership with System Operations to resolve customer or system issues.",
         "Self-driven without direct supervision and managed the customer load on the support floor."
@@ -79,7 +98,7 @@
       "website": "http://www.cssla.com/",
       "startDate": "2009-05-19",
       "endDate": "2010-08-16",
-      "summary": "Ham andouille beef spare ribs, shoulder jowl chicken. Corned beef t-bone fatback doner shoulder ham hock leberkas pastrami spare ribs strip steak drumstick. Cow chuck tail, spare ribs jowl frankfurter pastrami. Flank strip steak filet mignon biltong. Porchetta salami tail, turkey spare ribs drumstick andouille meatloaf ground round leberkas.",
+      "summary": "...",
       "highlights": [
         "Monitored 300+ network items via SNMP in Cacti and The Dude.",
         "The main support agent for the critical Point-to-Point wireless network for Iberville Bank and all its branches. This support was provided to the Information System Officer via e-mail, phone, and SMS.",
@@ -90,47 +109,66 @@
       ]
     }
   ],
+  "volunteer": [
+    {
+      "organization": "ATX Hack for Change",
+      "position": "Advisor",
+      "website": "http://atxhackforchange.org/",
+      "startDate": "2013-04-31",
+      "endDate": "2013-05-02",
+      "summary": "...",
+      "highlights": [
+        "..."
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "University of North Alabama",
+      "area": "Computer Information Systems",
+      "studyType": "Bachelor of Business Administration",
       "startDate": "2004-06-01",
       "endDate": "2008-12-01",
-      "area": "Computer Information Systems",
-      "studyType": "Bachelor"
+      "gpa": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "SaltStack Certified Engineer",
+      "title": "SaltStack Certified Engineer (SSCE)",
       "date": "2014-01-29",
-      "awarder": "SaltStack, Inc."
+      "awarder": "SaltStack, Inc.",
+      "summary": "13th SaltStack Certified Engineer Globally"
     }
   ],
+  "publications": [],
   "skills": [
     {
       "name": "DevOps",
-      "level": "test",
+      "level": "",
       "keywords": [
+        "Docker / Dockerfile",
+        "CI / CD",
         "SaltStack / Salt",
-        "Github / Git",
-        "Vagrant",
-        "Docker"
+        "Git / Github"
       ]
     },
     {
-      "name": "Markup Languages ",
-      "level": "Master",
+      "name": "Markup Languages",
+      "level": "",
       "keywords": [
-        "HTML",
-        "Markdown",
-        "YAML"
+        "YAML",
+        "JSON",
+        "Markdown"
       ]
     }
   ],
+  "languages": [],
+  "interests": [],
   "references": [
     {
       "name": "Joseph Palumbo",
-      "reference": "Jason Swindle is one of the original and founding members of the Cloud Launch Team. He and his teammate are responsible for building a one of the most successful additions to the modern Fanatical Support experience by providing a strategic bridge between sales and support.  This team is credited with increased activations, increased revenue and decreased churn among new customers.\n  It’s important to note that this team spent the first year onboarding all cloud customers without dedicated systems, broad autonomy and a job description that could change from one day to the next. Despite those challenges, Jason Swindle was able to provide his customers with a Fanatical onboarding experience while providing key insights and operational observations to help guide the team’s maturation.  Jason has a real passion for technology that addressed an important gap in the team’s collective skill set. Jason took it upon himself to become an expert on cloud automation. He would later use this skill by designing the infrastructure for the Graffiti project, which earned him the opportunity to speak at last year’s SaltStack Conference. During that time Jason became one of the first people within the industry to become a certified SaltStack Engineer.  In addition to Jason’s professional skills, he should be recognized for his earnest approach to connecting with those around him. This has translated into Jason building many genuine and lasting professional relationships among his peers and leadership.  As is his way, I know Jason will continue to keep his eye on the horizon of technology and be quick to share with those around him. While Jason’s contributions to the Cloud Launch Team have already had a profound positive influence on Rackspace, I’m eager to see the results of his future endeavors."
+      "reference": "Jason Swindle is one of the original and founding members of the Cloud Launch Team. He and his teammate are responsible for building a one of the most successful additions to the modern Fanatical Support experience by providing a strategic bridge between sales and support.  This team is credited with increased activations, increased revenue and decreased churn among new customers.  It’s important to note that this team spent the first year onboarding all cloud customers without dedicated systems, broad autonomy and a job description that could change from one day to the next. Despite those challenges, Jason Swindle was able to provide his customers with a Fanatical onboarding experience while providing key insights and operational observations to help guide the team’s maturation.  Jason has a real passion for technology that addressed an important gap in the team’s collective skill set. Jason took it upon himself to become an expert on cloud automation. He would later use this skill by designing the infrastructure for the Graffiti project, which earned him the opportunity to speak at last year’s SaltStack Conference. During that time Jason became one of the first people within the industry to become a certified SaltStack Engineer.  In addition to Jason’s professional skills, he should be recognized for his earnest approach to connecting with those around him. This has translated into Jason building many genuine and lasting professional relationships among his peers and leadership.  As is his way, I know Jason will continue to keep his eye on the horizon of technology and be quick to share with those around him. While Jason’s contributions to the Cloud Launch Team have already had a profound positive influence on Rackspace, I’m eager to see the results of his future endeavors."
     },
     {
       "name": "Alan Bush",
