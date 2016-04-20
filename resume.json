@@ -38,9 +38,15 @@
       "position": "Cloud Support Engineer I (Level 4)",
       "website": "https://aws.amazon.com/",
       "startDate": "2015-04-13",
-      "summary": "...",
+      "summary": "",
       "highlights": [
-        "..."
+        "Advise best practices and provided troubleshooting for high severity issues for AWS customers who use AWS deployment management services such as (but not limited to): Elastic Beanstalk, EC2 Container Service (ECS), EC2 Container Registry (ECR), CloudFormation, OpsWorks, CodeDeploy, CodePipeline, CodeCommit.",
+        "One of three Premium Support engineers to meet bi-weekly with ECS / ECR Product Leadership to act as a customer’s advocate when meeting with product leadership that included bringing to attention: feature request, bug reports, customer complaints, and overall inter-team communication improvements.",
+        "Helped design highly available, robust, and loosely coupled systems that took advantage of a large number of AWS Services.",
+        "Acted in concert with the AWS Premium Support of Sydney office to create introduction, intermediate, advance, and Subject Matter Expert (SME) level trainings for ECS, ECR, and Docker.",
+        "Worked as an \"Ask an Architect\" at AWS Pop-up Loft of San Francisco to provide 1-on-1, 60 minute sessions to whomever needed technical deep dives into AWS and Docker, or just want to learn the fundamentals of Cloud Computing.",
+        "Attended the ECS Global SME Summit, where I represented the needs of the customers and support to Solution Architects and Product leadership.",
+        "Helped create the ECS SME accreditation, to raise the bar of training and excellence for many to follow."
       ]
     },
     {
@@ -49,7 +55,7 @@
       "website": "https://www.rackspace.com/",
       "startDate": "2014-04-29",
       "endDate": "2015-03-19",
-      "summary": "...",
+      "summary": "",
       "highlights": [
         "Helped removed 50 terabyte of backups, saving Rackspace money on a 3rd party backup service.",
         "Linux operations administrator for Rackspace Cloud Databases (OpenStack Trove).",
@@ -65,7 +71,7 @@
       "website": "https://www.rackspace.com/",
       "startDate": "2013-02-12",
       "endDate": "2014-04-29",
-      "summary": "...",
+      "summary": "",
       "highlights": [
         "Maintained an account base of 60 customers for the duration of their first 60 days as a Rackspace Customer.",
         "Built strong relationships with 3rd party vendors like New Relic, SaltStack, and CloudFlare.",
@@ -81,7 +87,7 @@
       "website": "https://www.rackspace.com/",
       "startDate": "2010-08-16",
       "endDate": "2013-02-12",
-      "summary": "...",
+      "summary": "",
       "highlights": [
         "Provided Fanatical Support to customers and Rackers via phone, chat, and tickets.",
         "A strong understanding of the Cloud Sites infrastructure and how to support it.",
@@ -97,7 +103,7 @@
       "website": "http://www.cssla.com/",
       "startDate": "2009-05-19",
       "endDate": "2010-08-16",
-      "summary": "...",
+      "summary": "",
       "highlights": [
         "Monitored 300+ network items via SNMP in Cacti and The Dude.",
         "The main support agent for the critical Point-to-Point wireless network for Iberville Bank and all its branches. This support was provided to the Information System Officer via e-mail, phone, and SMS.",
@@ -115,9 +121,9 @@
       "website": "http://atxhackforchange.org/",
       "startDate": "2013-04-31",
       "endDate": "2013-05-02",
-      "summary": "...",
+      "summary": "",
       "highlights": [
-        "..."
+        "Helped advise \"hackers\" on the best practices on how the Cloud could best serve the needs of non-profit organizations in the greater Austin area."
       ]
     }
   ],
