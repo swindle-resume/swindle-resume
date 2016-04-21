@@ -40,13 +40,13 @@
       "startDate": "2015-04-13",
       "summary": "",
       "highlights": [
-        "Advise best practices and provided troubleshooting for high severity issues for AWS customers who use AWS deployment management services such as (but not limited to): Elastic Beanstalk, EC2 Container Service (ECS), EC2 Container Registry (ECR), CloudFormation, OpsWorks, CodeDeploy, CodePipeline, CodeCommit.",
-        "One of three Premium Support engineers to meet bi-weekly with ECS / ECR Product Leadership to act as a customer’s advocate when meeting with product leadership that included bringing to attention: feature request, bug reports, customer complaints, and overall inter-team communication improvements.",
-        "Helped design highly available, robust, and loosely coupled systems that took advantage of a large number of AWS Services.",
-        "Acted in concert with the AWS Premium Support of Sydney office to create introduction, intermediate, advance, and Subject Matter Expert (SME) level trainings for ECS, ECR, and Docker.",
-        "Worked as an \"Ask an Architect\" at AWS Pop-up Loft of San Francisco to provide 1-on-1, 60 minute sessions to whomever needed technical deep dives into AWS and Docker, or just want to learn the fundamentals of Cloud Computing.",
-        "Attended the ECS Global SME Summit, where I represented the needs of the customers and support to Solution Architects and Product leadership.",
-        "Helped create the ECS SME accreditation, to raise the bar of training and excellence for many to follow."
+        "Provided best practices and conducted troubleshooting for high severity issues for AWS customers who use AWS deployment management services such as (but not limited to): Elastic Beanstalk, EC2 Container Service (ECS), EC2 Container Registry (ECR), CloudFormation, OpsWorks, CodeDeploy, CodePipeline, and CodeCommit.",
+        "One of three Premium Support Engineers who meet bi-weekly with ECS / ECR Product Leadership to act as a customer’s advocate which included highlighting: feature requests, bug reports, customer complaints, and overall inter-team communication improvements.",
+        "Helped design highly available, robust, and loosely coupled systems which incorporated a large number of AWS Services.",
+        "Collaborated with AWS Premium Support of Sydney office to create introduction, intermediate, advanced, and Subject Matter Expert (SME) level trainings for ECS, ECR, and Docker.",
+        "Participated as an \"Ask an Architect\" at AWS Pop-up Loft in San Francisco providing 1-on-1, 60 minute sessions to attendees who needed technical deep dives into AWS and Docker, or attendees who expressed interestin learning the fundamentals of Cloud Computing.",
+        "Attended the ECS Global SME Summit and represented the needs of the customers and support to Solution Architects and Product Leadership.",
+        "Assisted in creating the ECS SME accreditation, to raise the bar of training and excellence for many to follow."
       ]
     },
     {
@@ -57,12 +57,12 @@
       "endDate": "2015-03-19",
       "summary": "",
       "highlights": [
-        "Helped removed 50 terabyte of backups, saving Rackspace money on a 3rd party backup service.",
-        "Linux operations administrator for Rackspace Cloud Databases (OpenStack Trove).",
-        "Successfully deployed SaltStack to two Data Centers with no customer impact or downtime.",
+        "Supported Rackspace Cloud Databases deployed of OpenStack Trove.",
+        "Helped remove 50 terabytes of data, saving Rackspace money on a 3rd party backup service.",
+        "Successfully deployed SaltStack in two Data Centers with no customer impact or downtime.",
         "Implemented a SaltStack Master of Masters, via Docker, to manage 6+ SaltStack Masters.",
-        "First contact on all tickets and phone calls during first shift.",
-        "Helped create classes for Rackspace’s training program to create a culture of improvement and education."
+        "Provided initial responses on all tickets and phone calls for customers.",
+        "Assisted in creating classes for Rackspace’s training program to create a culture of improvement and education."
       ]
     },
     {
@@ -74,11 +74,11 @@
       "summary": "",
       "highlights": [
         "Maintained an account base of 60 customers for the duration of their first 60 days as a Rackspace Customer.",
-        "Built strong relationships with 3rd party vendors like New Relic, SaltStack, and CloudFlare.",
-        "Architected scalable Cloud deployments to allow a customer to grow with their needs.",
-        "Designed, deployed, and managed the infrastructure for several internal tools.",
-        "Became a SaltStack Certified Engineer and gave a talk at SaltConf 2014.",
-        "Gave a talk at Cloud Mafia about Rackspace, DevOps, and SaltStack."
+        "Built strong relationships with 3rd party vendors such as New Relic, SaltStack, and CloudFlare.",
+        "Architected scalable Cloud deployments which allowed a customer to grow as needed.",
+        "Designed, deployed, and managed the infrastructure for several internal support tools.",
+        "Obtained SaltStack Certification and presented at SaltConf 2014.",
+        "Presented at Cloud Mafia about Rackspace, DevOps, and SaltStack."
       ]
     },
     {
@@ -89,11 +89,11 @@
       "endDate": "2013-02-12",
       "summary": "",
       "highlights": [
-        "Provided Fanatical Support to customers and Rackers via phone, chat, and tickets.",
-        "A strong understanding of the Cloud Sites infrastructure and how to support it.",
-        "Escalation paths for customers needing complex technical help or needing to air grievances.",
-        "A great knowledge of our customers and how issues/outages impact the front-line support.",
-        "Close partnership with System Operations to resolve customer or system issues.",
+        "Provided Fanatical Support to customers and Rackers via phone, chat, and ticketing system.",
+        "Established a strong understanding of the Cloud Sites PaaS (platform as a service) infrastructure.",
+        "Acted as an escalation path for customers needing complex technical and relational assistance.",
+        "Developed relationships with the customer base and made recommendations based off their anticipated needs with a goal to improve and optimize their website(s).",
+        "Cultivated a close partnership with System Operations Engineers in order to resolve customer and system platform issues.",
         "Self-driven without direct supervision and managed the customer load on the support floor."
       ]
     },
@@ -105,11 +105,11 @@
       "endDate": "2010-08-16",
       "summary": "",
       "highlights": [
-        "Monitored 300+ network items via SNMP in Cacti and The Dude.",
-        "The main support agent for the critical Point-to-Point wireless network for Iberville Bank and all its branches. This support was provided to the Information System Officer via e-mail, phone, and SMS.",
-        "Implemented an inventory system via Excel to track asset deployed and asset on-hand.",
-        "Provide phone-based support for website hosting, FTP, and Internet service.",
-        "Installed point-to-multipoint wireless equipment at the customers premise.",
+        "Monitored 300+ network devices via SNMP in Cacti and The Dude.",
+        "Acted as the primary support agent who provided support for the critical Point-to-Point wireless network for Iberville Bank and all its branches.  Support was also provided to the Information System Officer via e-mail, phone, and SMS.",
+        "Created and implemented an inventory system to track assets deployed at customer site as well as assets on-hand to be deployed for future customers and orders.",
+        "Provided phone-based support for website hosting, FTP, and Internet service to customers.",
+        "Installed point-to-multipoint wireless equipment at the customer's premise.",
         "Supported our in-house e-mail via POP3, IMAP, SMTP, and web interface."
       ]
     }
@@ -123,7 +123,7 @@
       "endDate": "2013-05-02",
       "summary": "",
       "highlights": [
-        "Helped advise \"hackers\" on the best practices on how the Cloud could best serve the needs of non-profit organizations in the greater Austin area."
+        "Helped advise \"hackers\" on the best practices of how Cloud Computing could best serve the needs of non-profit organizations in the greater Austin area."
       ]
     }
   ],
