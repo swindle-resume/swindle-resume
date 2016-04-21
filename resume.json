@@ -17,18 +17,18 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "jasonswindle",
-        "url": "https://www.linkedin.com/in/jasonswindle"
+        "username": "JasonSwindle",
+        "url": "https://www.linkedin.com/in/JasonSwindle"
       },
       {
         "network": "Github",
-        "username": "jasonswindle",
+        "username": "JasonSwindle",
         "url": "https://github.com/JasonSwindle"
       },
       {
         "network": "Keybase",
-        "username": "jasonswindle",
-        "url": "https://keybase.io/jasonswindle"
+        "username": "JasonSwindle",
+        "url": "https://keybase.io/JasonSwindle"
       }
     ]
   },
