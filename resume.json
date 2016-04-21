@@ -44,7 +44,7 @@
         "One of three Premium Support Engineers who meet bi-weekly with ECS / ECR Product Leadership to act as a customer’s advocate which included highlighting: feature requests, bug reports, customer complaints, and overall inter-team communication improvements.",
         "Helped design highly available, robust, and loosely coupled systems which incorporated a large number of AWS Services.",
         "Collaborated with AWS Premium Support of Sydney office to create introduction, intermediate, advanced, and Subject Matter Expert (SME) level trainings for ECS, ECR, and Docker.",
-        "Participated as an \"Ask an Architect\" at AWS Pop-up Loft in San Francisco providing 1-on-1, 60 minute sessions to attendees who needed technical deep dives into AWS and Docker, or attendees who expressed interestin learning the fundamentals of Cloud Computing.",
+        "Participated as an \"Ask an Architect\" at AWS Pop-up Loft in San Francisco providing 1-on-1, 60 minute sessions to attendees who needed technical deep dives into AWS and Docker, or attendees who expressed interest in learning the fundamentals of Cloud Computing.",
         "Attended the ECS Global SME Summit and represented the needs of the customers and support to Solution Architects and Product Leadership.",
         "Assisted in creating the ECS SME accreditation, to raise the bar of training and excellence for many to follow."
       ]
@@ -57,7 +57,7 @@
       "endDate": "2015-03-19",
       "summary": "",
       "highlights": [
-        "Supported Rackspace Cloud Databases deployed of OpenStack Trove.",
+        "Supported Rackspace Cloud Databases deployment of OpenStack Trove.",
         "Helped remove 50 terabytes of data, saving Rackspace money on a 3rd party backup service.",
         "Successfully deployed SaltStack in two Data Centers with no customer impact or downtime.",
         "Implemented a SaltStack Master of Masters, via Docker, to manage 6+ SaltStack Masters.",
