@@ -176,7 +176,18 @@
     }
   ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Gallup Strengths",
+      "keywords": [
+        "Learner",
+        "Input",
+        "Harmony",
+        "Restorative",
+        "Futuristic"
+      ]
+    }
+  ],
   "references": [
     {
       "name": "Joseph Palumbo",
