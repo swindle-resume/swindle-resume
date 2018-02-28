@@ -1,157 +1,145 @@
 {
-    "basics": {
-        "name": "Jason Swindle",
-        "label": "\"Be Helpful\"",
-        "picture": "",
-        "email": "jason.swindle@gmail.com",
-        "phone": "+1 (256) 275 - 4228",
-        "website": "http://resume.swindle.me",
-        "summary": "",
-        "location": {
-            "address": "",
-            "postalCode": "",
-            "city": "Seattle",
-            "countryCode": "",
-            "region": "Washington"
-        },
-        "profiles": [{
-                "network": "LinkedIn",
-                "username": "JasonSwindle",
-                "url": "https://www.linkedin.com/in/JasonSwindle"
-            },
-            {
-                "network": "Github",
-                "username": "JasonSwindle",
-                "url": "https://github.com/JasonSwindle"
-            },
-            {
-                "network": "Gitlab",
-                "username": "JasonSwindle",
-                "url": "https://gitlab.com/u/JasonSwindle"
-            }
-        ]
+  "basics": {
+    "name": "Jason Swindle",
+    "label": "\"Be Helpful\"",
+    "email": "jason.swindle@gmail.com",
+    "phone": "+1 (256) 275 - 4228",
+    "website": "http://resume.swindle.me",
+    "location": {
+      "city": "Seattle",
+      "region": "Washington"
     },
-    "education": [{
-        "institution": "University of North Alabama",
-        "area": "Computer Information Systems",
-        "studyType": "Bachelor",
-        "startDate": "2004-06-01",
-        "endDate": "2008-12-01"
-    }],
-    "work": [{
-            "company": "Amazon Web Services, Inc",
-            "position": "Cloud Support Engineer II (Level 5)",
-            "startDate": "2016-10-01",
-            "summary": "",
-            "highlights": [
-                "Gave a presentation at the ECS Global SME Summit that had Solution Architects, Product Leadership, and Premium Support.",
-                "Served as the highest tier of support to mitigate escalations to the respective service team, and improve turn around time on customer issues.",
-                "Point of Contact for ECS / ECR / Fargate / EKS / Docker in support for the service teams, Solution Architects, and leadership.",
-                "The Preferred Engineer and single point of contact for all things ECS / ECR / Docker for a large customer that successfully launched a feature used by up to 100 million users daily.",
-                "Traveled to Berlin to give a presentation on ECS and Prometheus monitoring to a fast growth start-up.",
-                "Helped improve the process in Support the following ways: \n &#x25AA; Deepen the relationship with the documentation team to lower customer contacts and clarify complex topics. \n &#x25AA; Helped lead the creation and updating of tooling for Premium Support.",
-                "Helped launch Amazon Fargate, and Amazon EKS. This help included: \n &#x25AA; Helped prepare support for launch by creating and delivering training. \n &#x25AA; Collaborated with the Services Team to advocate for customer features, and which were most important to the customers. \n &#x25AA; Educated the Service Team about the customer experiences. and how they can best serve the customers with the product.",
-                "Including job functions from Amazon Web Services, Cloud Support Engineer I (Level 4)."
-            ]
-        },
-        {
-            "company": "Amazon Web Services, Inc",
-            "position": "Cloud Support Engineer I (Level 4)",
-            "startDate": "2015-04-13",
-            "endDate": "2016-10-01",
-            "summary": "",
-            "highlights": [
-                "Was the only AWS Premium Support Engineer to represent AWS at DockerCon 2016 (Seattle) in 1-on-1 interactions with customers to understand their needs / gather feedback on ECS or AWS.",
-                "Provided best practices and conducted troubleshooting for high severity issues for AWS customers who use AWS deployment management services such as (but not limited to): Elastic Beanstalk, EC2 Container Service (ECS), EC2 Container Registry (ECR), CloudFormation, OpsWorks, CodeDeploy, CodePipeline, and CodeCommit.",
-                "One of three Premium Support Engineers who meet bi-weekly with ECS / ECR Product Leadership to act as a customer’s advocate which included highlighting: feature requests, bug reports, customer complaints, and overall inter-team communication improvements.",
-                "Helped design highly available, robust, and loosely coupled systems which incorporated a large number of AWS Services.",
-                "Collaborated with AWS Premium Support of Sydney office to create introduction, intermediate, advanced, and Subject Matter Expert (SME) level trainings for ECS, ECR, and Docker.",
-                "Became one of the first accredited ECS SME at Amazon (one of two).",
-                "Participated as an \"Ask an Architect\" at AWS Pop-up Loft in San Francisco providing 1-on-1, 60 minute sessions to attendees who needed technical deep dives into AWS and Docker, or attendees who expressed interest in learning the fundamentals of Cloud Computing.",
-                "Attended the ECS Global SME Summit and represented the needs of the customers and support to Solution Architects and Product Leadership."
-            ]
-        },
-        {
-            "company": "Rackspace US, Inc.",
-            "position": "Linux Operations Administrator I",
-            "startDate": "2014-04-29",
-            "endDate": "2015-03-19",
-            "summary": "",
-            "highlights": [
-                "Supported Rackspace Cloud Databases deployment of OpenStack Trove.",
-                "Helped remove 50 terabytes of data, saving Rackspace money on a 3rd party backup service.",
-                "Successfully deployed SaltStack in two Data Centers with no customer impact or downtime.",
-                "Implemented a SaltStack Master of Masters, via Docker, to manage 6+ SaltStack Masters.",
-                "Provided initial responses on all tickets and phone calls for customers.",
-                "Assisted in creating classes for Rackspace’s training program to create a culture of improvement and education."
-            ]
-        },
-        {
-            "company": "Rackspace US, Inc.",
-            "position": "Cloud Launch Manager I",
-            "startDate": "2013-02-12",
-            "endDate": "2014-04-29",
-            "summary": "",
-            "highlights": [
-                "Maintained an account base of 60 customers for the duration of their first 60 days as a Rackspace Customer.",
-                "Built strong relationships with 3rd party vendors such as New Relic, SaltStack, and CloudFlare.",
-                "Architected scalable Cloud deployments which allowed a customer to grow as needed.",
-                "Designed, deployed, and managed the infrastructure for several internal support tools.",
-                "Obtained SaltStack Certification and presented at SaltConf 2014.",
-                "Presented at Cloud Mafia about Rackspace, DevOps, and SaltStack."
-            ]
-        },
-        {
-            "company": "Rackspace US, Inc.",
-            "position": "Cloud Sites Linux Administrator I",
-            "startDate": "2010-08-16",
-            "endDate": "2013-02-12",
-            "summary": "",
-            "highlights": [
-                "Provided Fanatical Support to customers and Rackers via phone, chat, and ticketing system.",
-                "Established a strong understanding of the Cloud Sites PaaS (platform as a service) infrastructure.",
-                "Acted as an escalation path for customers needing complex technical and relational assistance.",
-                "Developed relationships with the customer base and made recommendations based off their anticipated needs with a goal to improve and optimize their website(s).",
-                "Cultivated a close partnership with System Operations Engineers in order to resolve customer and system platform issues.",
-                "Self-driven without direct supervision and managed the customer load on the support floor."
-            ]
-        }
-    ],
-    "awards": [{
-        "title": "SaltStack Certified Engineer (SSCE)",
-        "date": "2014-01-29",
-        "awarder": "SaltStack, Inc.",
-        "summary": "13th SaltStack Certified Engineer Globally (0x2E6A0C88)"
-    }],
-    "skills": [{
-            "name": "DevOps",
-            "level": "",
-            "keywords": [
-                "Docker / Dockerfile",
-                "CI / CD",
-                "SaltStack / Salt",
-                "Git / Github",
-                "Terraform",
-                "AWS"
-            ]
-        },
-        {
-            "name": "Markup Languages",
-            "level": "",
-            "keywords": [
-                "YAML",
-                "JSON",
-                "Markdown"
-            ]
-        }
-    ],
-    "references": [{
-            "name": "Joseph Palumbo",
-            "reference": "Jason Swindle is one of the original and founding members of the Cloud Launch Team. He and his teammate are responsible for building a one of the most successful additions to the modern Fanatical Support experience by providing a strategic bridge between sales and support.  This team is credited with increased activations, increased revenue and decreased churn among new customers.  It’s important to note that this team spent the first year onboarding all cloud customers without dedicated systems, broad autonomy and a job description that could change from one day to the next. Despite those challenges, Jason Swindle was able to provide his customers with a Fanatical onboarding experience while providing key insights and operational observations to help guide the team’s maturation.  Jason has a real passion for technology that addressed an important gap in the team’s collective skill set. Jason took it upon himself to become an expert on cloud automation. He would later use this skill by designing the infrastructure for the Graffiti project, which earned him the opportunity to speak at last year’s SaltStack Conference. During that time Jason became one of the first people within the industry to become a certified SaltStack Engineer.  In addition to Jason’s professional skills, he should be recognized for his earnest approach to connecting with those around him. This has translated into Jason building many genuine and lasting professional relationships among his peers and leadership.  As is his way, I know Jason will continue to keep his eye on the horizon of technology and be quick to share with those around him. While Jason’s contributions to the Cloud Launch Team have already had a profound positive influence on Rackspace, I’m eager to see the results of his future endeavors."
-        },
-        {
-            "name": "Alan Bush",
-            "reference": "I've had the opportunity to work with Jason Swindle since early 2013. In this time I have seen Jason learn many new skills. Our team needed to learn more about configuration management tools, and Jason went out and learned SaltStack. He didn't stop there, though - he went on to use Salt to build and maintain the infrastructure for several internal tools. Then he went on to speak about Salt at conferences, including the first ever Salt Conf. Then he became the 13th person in the world to earn the 'SaltStack Certified Engineer' certification. Recently, his project has necessitated using Docker. I have no doubt that he will become a master of Docker, the same way he has become a master of Salt. Jason is an extremely technical, fast learning, intelligent asset to any team in any organization. Hire this guy."
-        }
+    "profiles": [{
+        "network": "LinkedIn",
+        "username": "JasonSwindle",
+        "url": "https://www.linkedin.com/in/JasonSwindle"
+      },
+      {
+        "network": "Github",
+        "username": "JasonSwindle",
+        "url": "https://github.com/JasonSwindle"
+      },
+      {
+        "network": "Gitlab",
+        "username": "JasonSwindle",
+        "url": "https://gitlab.com/u/JasonSwindle"
+      }
     ]
+  },
+  "education": [{
+    "institution": "University of North Alabama",
+    "area": "Computer Information Systems",
+    "studyType": "Bachelor",
+    "startDate": "2004-06-01",
+    "endDate": "2008-12-01"
+  }],
+  "work": [{
+      "company": "Amazon Web Services, Inc",
+      "position": "Cloud Support Engineer II (Level 5)",
+      "startDate": "2016-10-01",
+      "highlights": [
+        "Gave a presentation at the ECS Global SME Summit that had Solution Architects, Product Leadership, and Premium Support.",
+        "Served as the highest tier of support to mitigate escalations to the respective service team, and improve turn around time on customer issues.",
+        "Point of Contact for ECS / ECR / Fargate / EKS / Docker in support for the service teams, Solution Architects, and leadership.",
+        "The Preferred Engineer and single point of contact for all things ECS / ECR / Docker for a large customer that successfully launched a feature used by up to 100 million users daily.",
+        "Traveled to Berlin to give a presentation on ECS and Prometheus monitoring to a fast growth start-up.",
+        "Helped improve the process in Support the following ways: \n &#x25AA; Deepen the relationship with the documentation team to lower customer contacts and clarify complex topics. \n &#x25AA; Helped lead the creation and updating of tooling for Premium Support.",
+        "Helped launch Amazon Fargate, and Amazon EKS. This help included: \n &#x25AA; Helped prepare support for launch by creating and delivering training. \n &#x25AA; Collaborated with the Services Team to advocate for customer features, and which were most important to the customers. \n &#x25AA; Educated the Service Team about the customer experiences. and how they can best serve the customers with the product.",
+        "Including job functions from Amazon Web Services, Cloud Support Engineer I (Level 4)."
+      ]
+    },
+    {
+      "company": "Amazon Web Services, Inc",
+      "position": "Cloud Support Engineer I (Level 4)",
+      "startDate": "2015-04-13",
+      "endDate": "2016-10-01",
+      "highlights": [
+        "Was the only AWS Premium Support Engineer to represent AWS at DockerCon 2016 (Seattle) in 1-on-1 interactions with customers to understand their needs / gather feedback on ECS or AWS.",
+        "Provided best practices and conducted troubleshooting for high severity issues for AWS customers who use AWS deployment management services such as (but not limited to): Elastic Beanstalk, EC2 Container Service (ECS), EC2 Container Registry (ECR), CloudFormation, OpsWorks, CodeDeploy, CodePipeline, and CodeCommit.",
+        "One of three Premium Support Engineers who meet bi-weekly with ECS / ECR Product Leadership to act as a customer’s advocate which included highlighting: feature requests, bug reports, customer complaints, and overall inter-team communication improvements.",
+        "Helped design highly available, robust, and loosely coupled systems which incorporated a large number of AWS Services.",
+        "Collaborated with AWS Premium Support of Sydney office to create introduction, intermediate, advanced, and Subject Matter Expert (SME) level trainings for ECS, ECR, and Docker.",
+        "Became one of the first accredited ECS SME at Amazon (one of two).",
+        "Participated as an \"Ask an Architect\" at AWS Pop-up Loft in San Francisco providing 1-on-1, 60 minute sessions to attendees who needed technical deep dives into AWS and Docker, or attendees who expressed interest in learning the fundamentals of Cloud Computing.",
+        "Attended the ECS Global SME Summit and represented the needs of the customers and support to Solution Architects and Product Leadership."
+      ]
+    },
+    {
+      "company": "Rackspace US, Inc.",
+      "position": "Linux Operations Administrator I",
+      "startDate": "2014-04-29",
+      "endDate": "2015-03-19",
+      "highlights": [
+        "Supported Rackspace Cloud Databases deployment of OpenStack Trove.",
+        "Helped remove 50 terabytes of data, saving Rackspace money on a 3rd party backup service.",
+        "Successfully deployed SaltStack in two Data Centers with no customer impact or downtime.",
+        "Implemented a SaltStack Master of Masters, via Docker, to manage 6+ SaltStack Masters.",
+        "Provided initial responses on all tickets and phone calls for customers.",
+        "Assisted in creating classes for Rackspace’s training program to create a culture of improvement and education."
+      ]
+    },
+    {
+      "company": "Rackspace US, Inc.",
+      "position": "Cloud Launch Manager I",
+      "startDate": "2013-02-12",
+      "endDate": "2014-04-29",
+      "highlights": [
+        "Maintained an account base of 60 customers for the duration of their first 60 days as a Rackspace Customer.",
+        "Built strong relationships with 3rd party vendors such as New Relic, SaltStack, and CloudFlare.",
+        "Architected scalable Cloud deployments which allowed a customer to grow as needed.",
+        "Designed, deployed, and managed the infrastructure for several internal support tools.",
+        "Obtained SaltStack Certification and presented at SaltConf 2014.",
+        "Presented at Cloud Mafia about Rackspace, DevOps, and SaltStack."
+      ]
+    },
+    {
+      "company": "Rackspace US, Inc.",
+      "position": "Cloud Sites Linux Administrator I",
+      "startDate": "2010-08-16",
+      "endDate": "2013-02-12",
+      "highlights": [
+        "Provided Fanatical Support to customers and Rackers via phone, chat, and ticketing system.",
+        "Established a strong understanding of the Cloud Sites PaaS (platform as a service) infrastructure.",
+        "Acted as an escalation path for customers needing complex technical and relational assistance.",
+        "Developed relationships with the customer base and made recommendations based off their anticipated needs with a goal to improve and optimize their website(s).",
+        "Cultivated a close partnership with System Operations Engineers in order to resolve customer and system platform issues.",
+        "Self-driven without direct supervision and managed the customer load on the support floor."
+      ]
+    }
+  ],
+  "awards": [{
+    "title": "SaltStack Certified Engineer (SSCE)",
+    "date": "2014-01-29",
+    "awarder": "SaltStack, Inc.",
+    "summary": "13th SaltStack Certified Engineer Globally (0x2E6A0C88)"
+  }],
+  "skills": [{
+      "name": "DevOps",
+      "keywords": [
+        "Docker / Dockerfile",
+        "CI / CD",
+        "SaltStack / Salt",
+        "Git / Github",
+        "Terraform",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Markup Languages",
+      "keywords": [
+        "YAML",
+        "JSON",
+        "Markdown"
+      ]
+    }
+  ],
+  "references": [{
+      "name": "Joseph Palumbo",
+      "reference": "Jason Swindle is one of the original and founding members of the Cloud Launch Team. He and his teammate are responsible for building a one of the most successful additions to the modern Fanatical Support experience by providing a strategic bridge between sales and support.  This team is credited with increased activations, increased revenue and decreased churn among new customers.  It’s important to note that this team spent the first year onboarding all cloud customers without dedicated systems, broad autonomy and a job description that could change from one day to the next. Despite those challenges, Jason Swindle was able to provide his customers with a Fanatical onboarding experience while providing key insights and operational observations to help guide the team’s maturation.  Jason has a real passion for technology that addressed an important gap in the team’s collective skill set. Jason took it upon himself to become an expert on cloud automation. He would later use this skill by designing the infrastructure for the Graffiti project, which earned him the opportunity to speak at last year’s SaltStack Conference. During that time Jason became one of the first people within the industry to become a certified SaltStack Engineer.  In addition to Jason’s professional skills, he should be recognized for his earnest approach to connecting with those around him. This has translated into Jason building many genuine and lasting professional relationships among his peers and leadership.  As is his way, I know Jason will continue to keep his eye on the horizon of technology and be quick to share with those around him. While Jason’s contributions to the Cloud Launch Team have already had a profound positive influence on Rackspace, I’m eager to see the results of his future endeavors."
+    },
+    {
+      "name": "Alan Bush",
+      "reference": "I've had the opportunity to work with Jason Swindle since early 2013. In this time I have seen Jason learn many new skills. Our team needed to learn more about configuration management tools, and Jason went out and learned SaltStack. He didn't stop there, though - he went on to use Salt to build and maintain the infrastructure for several internal tools. Then he went on to speak about Salt at conferences, including the first ever Salt Conf. Then he became the 13th person in the world to earn the 'SaltStack Certified Engineer' certification. Recently, his project has necessitated using Docker. I have no doubt that he will become a master of Docker, the same way he has become a master of Salt. Jason is an extremely technical, fast learning, intelligent asset to any team in any organization. Hire this guy."
+    }
+  ]
 }
