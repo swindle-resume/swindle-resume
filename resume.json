@@ -131,7 +131,8 @@
                 "CI / CD",
                 "SaltStack / Salt",
                 "Git / Github",
-                "Terraform"
+                "Terraform",
+                "AWS"
             ]
         },
         {
