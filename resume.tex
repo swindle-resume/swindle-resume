@@ -1,11 +1,11 @@
 \documentclass[a4paper]{article}
 \usepackage{fullpage}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{textcomp}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage[english]{babel}
 \textheight=10in
+\usepackage[dayofweek]{datetime}
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 \raggedright
 
 \usepackage{fancyhdr}
@@ -14,7 +14,7 @@
 \renewcommand{\headrulewidth}{0pt}
 \cfoot{Jason Swindle \hfill \thepage}
 
-\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex}
 
 % DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
 
@@ -36,13 +36,13 @@
 }
 
 \newcommand{\employer} [3] {
-    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+    {\textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}} \\}
 }
 
 \newcommand{\contact} [3] {
     \vspace*{-10pt}
     \begin{center}
-        {\Huge \scshape {#1}}\\
+        {\Huge \scshape {#1}} \\
         #2 \\ #3
     \end{center}
     \vspace*{-8pt}
@@ -55,13 +55,13 @@
 }
 
 \newcommand{\schoolwithcourses} [4] {
-    \textbf{#1} #2 $\bullet$ #3\\
+    \textbf{#1} #2 $\bullet$ #3 \\
     #4 \\
     \vspace*{5pt}
 }
 
 \newcommand{\school} [4] {
-    \textbf{#1} #2 $\bullet$ #3\\
+    \textbf{#1} #2 $\bullet$ #3 \\
     #4 \\
 }
 % END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
@@ -72,27 +72,27 @@
 %==== Profile ====%
 \vspace*{-10pt}
 \begin{center}
-    {\Huge \scshape {Jason Swindle}}\\[1\baselineskip]
-    jason.swindle@gmail.com $\cdot$ (256) 275 - 4228 $\cdot$ https://resume.swindle.me\\[1\baselineskip]
+    {\Huge \scshape {Jason Swindle}} \\[1\baselineskip]
+    jason.swindle@gmail.com $\cdot$ (256) 275 - 4228 $\cdot$ https://resume.swindle.me \\[1\baselineskip]
 \end{center}
 
 %==== Experience ====%
 \header{Experience}
 \vspace{1mm}
 
-\textbf{Amazon Web Services, Inc} \hfill Seattle, Washington\\
-\textit{Specialist Technical Account Manager for Container Technologies} \hfill 2018-09-17 - Present\\
+\textbf{Amazon Web Services, Inc.} \hfill{Seattle, Washington} \\
+\textit{Specialist Technical Account Manager for Container Technologies} \hfill{2018-09-17 --- Present} \\
 \vspace{-1mm}
 \begin{itemize} \itemsep 1pt
     \item First Specialist Technical Account Manager (STAM) for Containers in Amazon / AWS, and helped shaped the role and direction of the STAM organization.
     \item Provided guidance for highly scalable, flexible and resilient cloud workloads for enterprise AWS customers using a broad range of technologies and skills
     \item Technical liaison between customers, service teams and support. This included being the voice of the customer during product creation, escalations, and product improvements.
     \item Provided a proof-of-concept monitoring infrastructure which monitored 1.5 million vCPUs and 55,000+ Amazon EC2 servers with a 1-minute monitoring service level agreement (SLA). This setup included the use of: Prometheus for the collection and storage of metrics, Grafana for the custom dashboards, Docker for the deployment, Amazon EC2 for the servers, Amazon Application Load Balancer for load balancing request to Grafana, and Prometheus Node Exporter for server level metrics.
-    \item Worked closely with a Fortune 500 customer\textsc{\char13}s engineering team to triage and unblock them from a production outage, and identified a software bug that could impact other customers.
-    \item Joint contributor to the \textquotedbl{}EKS Log Collector\textquotedbl{}, which is now included in the Amazon Elastic Kubernetes Service AMI and Github repository. This helped decrease case resolve time and reduced the total number of correspondences.
+    \item Worked closely with a Fortune 500 customer's engineering team to triage and unblock them from a production outage, and identified a software bug that could impact other customers.
+    \item Joint contributor to the \textquotedbl{}EKS Log Collector\textquotedbl{}, which is now included in the Amazon Elastic Kubernetes Service AMI and GitHub repository. This helped decrease case resolve time and reduced the total number of correspondences.
 \end{itemize}
-\textbf{Amazon Web Services, Inc} \hfill Seattle, Washington\\
-\textit{Cloud Support Engineer II} \hfill 2016-10-01 - 2018-09-17\\
+\textbf{Amazon Web Services, Inc.} \hfill{Seattle, Washington} \\
+\textit{Cloud Support Engineer \RNum{2}} \hfill{2016-10-01 --- 2018-09-17} \\
 \vspace{-1mm}
 \begin{itemize} \itemsep 1pt
     \item Served as the highest tier of support to mitigate escalations to the respective service team, and improve turn around time on customer issues.
@@ -102,24 +102,24 @@
     \item Traveled to Berlin to give a presentation on ECS and Prometheus monitoring to a fast growth start-up.
     \item Helped improve process in the support organization by strengthening the relationship with the documentation team to lower customer contacts and clarify complex topics, and led project to create and update internal tooling for premium support
     \item Helped launch Amazon Fargate, and Amazon Elastic Kubernetes Service: created and delivered training material for premium support on new services, collaborated with the service team to advocate for customer features and served as liaison between service team and premium support
-    \item All job functions of cloud support engineer I continued to be served.
+    \item All job functions of Cloud Support Engineer \RNum{1} continued to be served.
 \end{itemize}
-\textbf{Amazon Web Services, Inc} \hfill Seattle, Washington\\
-\textit{Cloud Support Engineer I} \hfill 2015-04-13 - 2016-10-01\\
+\textbf{Amazon Web Services, Inc.} \hfill{Seattle, Washington} \\
+\textit{Cloud Support Engineer \RNum{1}} \hfill{2015-04-13 --- 2016-10-01} \\
 \vspace{-1mm}
 \begin{itemize} \itemsep 1pt
-    \item Was the only AWS premium support Engineer to represent AWS at DockerCon 2016 (Seattle) in 1-on-1 interactions with customers to understand their needs / gather feedback on ECS or AWS.
+    \item Only AWS premium support Engineer to represent AWS at DockerCon 2016 (Seattle) in 1-on-1 interactions with customers to understand their needs / gather feedback on ECS or AWS.
     \item Provided best practices and conducted troubleshooting for high severity issues for AWS customers who use AWS deployment management services such as (but not limited to): Elastic Beanstalk, EC2 Container Service (ECS), EC2 Container Registry (ECR), CloudFormation, OpsWorks, CodeDeploy, CodePipeline, and CodeCommit.
-    \item One of three premium support Engineers who met bi-weekly with ECS / ECR product leadership to act as a customer\textsc{\char13}s advocate which included highlighting: feature requests, bug reports, customer complaints, and overall inter-team communication improvements.
-    \item Collaborated with AWS premium support of Sydney office to create introduction, intermediate, advanced, and Subject Matter Expert (SME) level trainings for ECS, ECR, and Docker.
-    \item Inaugural accredited ECS subject matter experts (SME) at Amazon. This accreditation was validated and approved by the creators of AWS ECS. 
+    \item One of three premium support Engineers who met bi-weekly with ECS / ECR product leadership to act as a customer's advocate which included highlighting: feature requests, bug reports, customer complaints, and overall inter-team communication improvements.
+    \item Collaborated with AWS premium support of Sydney, Australia office to create introduction, intermediate, advanced, and Subject Matter Expert (SME) level training for ECS, ECR, and Docker.
+    \item Inaugural accredited ECS subject matter experts (SME) at Amazon. This accreditation was validated and approved by the creators of Amazon Elastic Container Service. 
     \item Participated at \textquotedbl{}Ask an Architect\textquotedbl{} at AWS Pop-up Loft in San Francisco, providing 1-on-1, 60 minute sessions to attendees who needed technical deep dives into AWS and Docker, or attendees who expressed interest in learning the fundamentals of cloud computing and DevOps.
     \item Attended the ECS Global Subject Matter Expert Summit and represented the needs of the customers and support to solution architects and product leadership.
 \end{itemize}
 
 %==== Skills ====%
 \header{Skills}
-\textbf{Deployment Methodologies}\\
+\textbf{Deployment Methodologies} \\
 \vspace{-1mm}
 \begin{itemize} \itemsep 1pt
     \item Containers / Docker / Kubernetes / Amazon ECS
@@ -129,7 +129,7 @@
     \item Terraform / Packer
 \end{itemize}
 
-\textbf{AWS Products Specialty}\\
+\textbf{AWS Products Specialty} \\
 \vspace{-1mm}
 \begin{itemize} \itemsep 1pt
     \item Amazon Elastic Kubernetes Service
@@ -140,38 +140,23 @@
 
 %==== Projects ====%
 \header{Projects}
-\textbf{AWS ECS Local DNS Cache} \hfill github.com/JasonSwindle/ecs-local-dns-cache\\
+
+\textbf{AWS ECS Local DNS Cache} \hfill{github.com/JasonSwindle/ecs-local-dns-cache} \\
 \textit{Created to allow faster DNS resolution for cached items and to mitigate containerized workloads from overloaded upstream DNS providers.} \\[1\baselineskip]
 
-% \vspace{-1mm}
-% \begin{itemize} \itemsep 1pt
-%	\item CoreDNS; Used for DNS caching.
-%	\item Docker; Used for the application encapsulation.
-%	\item AWS ECS; Used for the container orchestration of the Docker Containers.
-%    \item Bash; Used as the primary scripting language.
-%\end{itemize}
-
-\textbf{EKS Log Collector} \hfill github.com/awslabs/amazon-eks-ami\\
+\textbf{EKS Log Collector} \hfill{github.com/awslabs/amazon-eks-ami} \\
 \textit{Created to expedite the handling of a customer case and reduce the number of case correspondence. The script collects a broad range of data points for the end-user automatically. Previously this process  was manual and error-prone.} \\[1\baselineskip]
-
-%\vspace{-1mm}
-%\begin{itemize} \itemsep 1pt
-%	\item CoreDNS; Used for DNS caching.
-%	\item Docker; Used for the application encapsulation.
-%	\item AWS ECS; Used for the container orchestration of the Docker Containers.
-%    \item Bash; Used as the primary scripting language.
-%\end{itemize}
 
 %==== Education ====%
 \header{Education}
-\textbf{University of North Alabama}\hfill Florence, Alabama\\
-Bachelor Computer Information Systems \hfill 2004-06-01 - 2008-12-01\\
+\textbf{University of North Alabama} \hfill{Florence, Alabama} \\
+Bachelor Computer Information Systems \hfill{2004-06-01 --- 2008-12-01} \\
 \vspace{2mm}
 
 %==== Awards ====%
 \header{Awards}
-\textbf{SaltStack Certified Engineer (SSCE)} \hfill SaltStack, Inc.\\
-13th SaltStack Certified Engineer Globally (0x2E6A0C88) \hfill 2014-01-29\\
+\textbf{SaltStack Certified Engineer (SSCE)} \hfill{SaltStack, Inc.} \\
+13\textsuperscript{th} SaltStack Certified Engineer Globally (0x2E6A0C88) \hfill{2014-01-29} \\
 \vspace*{2mm}
 
 \end{document}
