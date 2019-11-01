@@ -1,0 +1,128 @@
+% Custom \section's
+\usepackage{titlesec}
+
+% IF-Then
+\usepackage{xifthen}
+
+% PDF Stuff
+\usepackage{pslatex}
+\pdfcompresslevel=9
+\pdfminorversion=5
+\pdfobjcompresslevel=2
+\usepackage[nodocdata=false,noeditdata=true,noproducerdata=true,noptexdata=true,nopdftrailerid=false]{pdfprivacy}
+
+% Hyper Links
+\usepackage[allcolors=black,hidelinks]{hyperref}
+
+% Roman numerals
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+
+% Ordinal numbers
+\usepackage[super]{nth}
+
+% Phone number formatting
+\usepackage{phonenumbers}
+
+%\usepackage{fullpage}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=2.2cm,right=2.2cm,top=2.2cm,bottom=2.2cm]{geometry}
+\usepackage[english,printdayoff]{isodate}
+\usepackage{fancyhdr}
+
+\raggedright
+
+% Header Stuff
+\pagestyle{fancy}
+\fancyhf{}
+
+% Fooder Stuff
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{Jason Swindle \hfill \thepage}
+
+% Section formatting
+\titleformat{\section}{\scshape\raggedright}{}{0em}{}[\titlerule]
+
+\newcommand{\roleheader} [5] {
+% \roleheader
+%     {Company Name}
+%     {Location}
+%     {Title}
+%     {Start Date in '2018-09-17' format}
+%     {End Date in '2018-09-17' format, if left blank, it will print 'Present'}
+    \textbf{#1}
+    \hfill{#2} \\
+    \textit{#3}
+    \ifthenelse{\isempty{#5}}
+        {\hfill{\printdate{#4} to Present} \\}
+        {\hfill{\daterange{#4}{#5} \\}}
+}
+
+\newcommand{\projectitem} [3] {
+% \projectitem
+%     {Project Name}
+%     {URL}
+%     {Description}
+    \textbf{#1}
+    \hfill{#2} \\
+    \textit{#3}
+    \\[1\baselineskip]
+}
+
+\newcommand{\educationitem} [5] {
+% \educationitem
+%     {University Name}
+%     {Location}
+%     {Degree}
+%     {Start Date in '2018-09-17' format}
+%     {End Date in '2018-09-17' format, if left blank, it will print 'Present'}
+    \textbf{#1}
+    \hfill{#2} \\
+    #3
+    \ifthenelse{\isempty{#5}}
+        {\hfill{\printdate{#4} to Present}}
+        {\hfill{\daterange{#4}{#5}}}
+    \\[1\baselineskip]
+}
+
+\newcommand{\profile} [5] {
+% \profile
+%     {Name}
+%     {Email Address}
+%     {Two digit Country Code}
+%     {Phone Number}
+%     {website, if left blank, it will be omitted}
+    \vspace*{-10pt}
+    \setphonenumbers{foreign, foreign-area-code-sep=brackets}
+    \begin{center}
+        {\Huge \scshape {#1}}
+        \\[1\baselineskip]
+        \ifthenelse{\isempty{#2}}
+            {}
+            {\href{mailto:#2}{#2}}
+        \ifthenelse{\isempty{#4}}
+            {}
+            {$\cdot$ \phonenumber[country=#3]{#4}}
+        \ifthenelse{\isempty{#5}}
+            {}
+            {$\cdot$ #5}
+        \\[1\baselineskip]
+    \end{center}
+}
+
+\newcommand{\awarditem} [4] {
+%% Usage of \awarditem
+% \awarditem
+%     {Award}
+%     {Award Provider}
+%     {Description}
+%     {Date in '2018-09-17' format}
+    \textbf{#1}
+    \hfill{#2} \\
+    #3
+    \hfill{
+        \printdate{#4}
+    }
+    \\[1\baselineskip]
+}
