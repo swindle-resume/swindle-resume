@@ -1,5 +1,8 @@
 \documentclass[a4paper]{article}
 
+% Custom \section's
+\usepackage{titlesec}
+
 % IF-Then
 \usepackage{xifthen}
 
@@ -40,26 +43,10 @@
 \renewcommand{\headrulewidth}{0pt}
 \cfoot{Jason Swindle \hfill \thepage}
 
-% Needed?
-%\def\bull{\vrule height 0.8ex width .7ex depth -.1ex}
+% Section formatting
+\titleformat{\section}{\scshape\raggedright}{}{0em}{}[\titlerule]
 
 % DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\lineunder} {
-    \vspace*{-8pt} \\
-    \hspace*{-18pt}
-    \hrulefill \\
-}
-
-\newcommand{\header} [1] {
-    {
-        \hspace*{-18pt}
-        \vspace*{6pt}
-        \textsc{#1}
-    }
-    \vspace*{-6pt}
-    \lineunder
-    \vspace{2pt}
-}
 
 \newcommand{\roleheader} [5] {
 % \roleheader
@@ -152,26 +139,25 @@
 \input{items/profile}
 
 %==== Experience ====%
-\header{Experience}
-
+\section{Experience}
 \input{items/experience/company/aws/stam}
 \input{items/experience/company/aws/cse_2}
 \input{items/experience/company/aws/cse_1}
 
 %==== Skills ====%
-\header{Skills}
+\section{Skills}
 \input{items/skills}
 
 %==== Projects ====%
-\header{Projects}
+\section{Projects}
 \input{items/projects}
 
 %==== Education ====%
-\header{Education}
+\section{Education}
 \input{items/education}
 
 %==== Awards ====%
-\header{Awards}
+\section{Awards}
 \input{items/awards}
 
 %==== References ====%
