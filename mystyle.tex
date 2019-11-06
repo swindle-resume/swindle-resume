@@ -5,6 +5,11 @@
             right=2.2cm]
             {geometry}
 
+
+\usepackage{enumitem}
+
+\setlist[itemize]{itemsep=1pt}
+
 % Custom \section's
 \usepackage{titlesec}
 
@@ -72,6 +77,7 @@
     \ifthenelse{\isempty{#5}}
         {\hfill{\printdate{#4} to Present} \\}
         {\hfill{\daterange{#4}{#5} \\}}
+    \vspace{-6pt}
 }
 
 \newcommand{\projectitem} [3] {
