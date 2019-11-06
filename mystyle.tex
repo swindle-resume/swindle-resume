@@ -55,7 +55,9 @@
 \cfoot{Jason Swindle \hfill \thepage}
 
 % Section formatting
-\titleformat{\section}{\scshape\raggedright}{}{0em}{}[\titlerule]
+\titleformat{\section}{\scshape\raggedright}{}{-15pt}{}
+    [\vspace{-8pt}\hspace*{-15pt}\titlerule]
+    \titlespacing{\section}{0pt}{0pt}{1pt}
 
 \newcommand{\roleheader} [5] {
 % \roleheader
