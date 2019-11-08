@@ -8,8 +8,11 @@
             right=2.2cm]
             {geometry}
 
-\usepackage{enumitem}
-\setlist[itemize]{itemsep=1pt}
+%\usepackage{enumitem}
+%\setlist[itemize]{itemsep={0pt}}
+%\setlist[itemize]{parsep={50pt}}
+%\setlist[itemize]{topsep={2pt}}
+%\setlist[enumerate]{parsep=0pt}
 
 % Custom \section's
 \usepackage{titlesec}
@@ -86,7 +89,6 @@
     \ifthenelse{\isempty{#5}}
         {\hfill{\printdate{#4} to Present} \\}
         {\hfill{\daterange{#4}{#5} \\}}
-    \vspace{-6pt}
 }
 
 \newcommand{\projectitem} [3] {
@@ -153,6 +155,6 @@
     #3
     \hfill{
         \printdate{#4}
-    }
-    \\[1\baselineskip]
+    } \\
+    %\\[1\baselineskip]
 }
