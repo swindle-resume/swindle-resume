@@ -1,6 +1,3 @@
-% Variable that repeat many times.
-\newcommand{\yourname}{Jason Swindle}
-
 \usepackage[paper=a4paper,
             top=1cm,
             bottom=2.2cm,
@@ -8,11 +5,9 @@
             right=2.2cm]
             {geometry}
 
-%\usepackage{enumitem}
-%\setlist[itemize]{itemsep={0pt}}
-%\setlist[itemize]{parsep={50pt}}
-%\setlist[itemize]{topsep={2pt}}
-%\setlist[enumerate]{parsep=0pt}
+\usepackage{enumitem}
+\setlist[itemize]{itemsep={0pt}}
+\setlist[itemize]{parsep={0pt}}
 
 % Custom \section's
 \usepackage{titlesec}
@@ -87,8 +82,9 @@
     \hfill{#2} \\
     \textit{#3}
     \ifthenelse{\isempty{#5}}
-        {\hfill{\printdate{#4} to Present} \\}
-        {\hfill{\daterange{#4}{#5} \\}}
+        {\hfill{\printdate{#4} to Present}} 
+        {\hfill{\daterange{#4}{#5}}}
+    \\
 }
 
 \newcommand{\projectitem} [3] {
@@ -139,7 +135,7 @@
         \ifthenelse{\isempty{#5}}
             {}
             {$\cdot$ #5}
-        \\[1\baselineskip]
+    \\[1\baselineskip]
     \end{center}
 }
 
@@ -153,8 +149,6 @@
     \textbf{#1}
     \hfill{#2} \\
     #3
-    \hfill{
-        \printdate{#4}
-    } \\
-    %\\[1\baselineskip]
+    \hfill{\printdate{#4}}
+    \\[1\baselineskip]
 }
