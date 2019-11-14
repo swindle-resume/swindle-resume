@@ -1,13 +1,18 @@
 \usepackage[paper=a4paper,
-            top=1cm,
-            bottom=2.2cm,
-            left=2.2cm,
-            right=2.2cm]
+            top=30pt,
+            left=60pt,
+            right=60pt,
+            bottom=60pt,
+            nomarginpar,
+            nohead]
             {geometry}
 
 \usepackage{enumitem}
-\setlist[itemize]{itemsep={0pt}}
-\setlist[itemize]{parsep={0pt}}
+\setlist[itemize]{
+        topsep=3pt,
+        parsep=0pt,
+        itemsep=3pt
+        }
 
 % Custom \section's
 \usepackage{titlesec}
@@ -68,7 +73,7 @@
 
 % Section formatting
 \titleformat{\section}{\scshape\raggedright}{}{-15pt}{}
-    [\vspace{-8pt}\hspace*{-15pt}\titlerule]
+    [\vspace{-10pt}\hspace*{-15pt}\titlerule]
     \titlespacing{\section}{0pt}{0pt}{1pt}
 
 \newcommand{\roleheader} [5] {
@@ -135,7 +140,6 @@
         \ifthenelse{\isempty{#5}}
             {}
             {$\cdot$ #5}
-    \\[1\baselineskip]
     \end{center}
 }
 
