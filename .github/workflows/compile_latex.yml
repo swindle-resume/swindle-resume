@@ -5,13 +5,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@722adc63f1aa60a57ec37892e133b1d319cae598
       - name: Github Action for LaTeX
         uses: xu-cheng/latex-action@b25b38671ce0768ef738640e08df41ae91d912a8
         with:
           root_file: resume.tex
       - name: Upload artifact
-        uses: actions/upload-artifact@v1.0.0
+        uses: actions/upload-artifact@3446296876d12d4e3a0f3145a3c87e67bf0a16b5
         with:
           # Artifact name
           name: resume.pdf
