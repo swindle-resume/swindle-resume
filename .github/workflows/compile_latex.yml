@@ -16,4 +16,4 @@ jobs:
           # Artifact name
           name: resume.pdf
           # Directory containing files to upload
-          path: output/resume.pdf
+          path: resume.pdf
