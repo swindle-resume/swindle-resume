@@ -7,7 +7,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v1
       - name: Github Action for LaTeX
-        uses: xu-cheng/latex-action@1.2.1
+        uses: xu-cheng/latex-action@b25b38671ce0768ef738640e08df41ae91d912a8
         with:
           root_file: resume.tex
       - name: Upload artifact
