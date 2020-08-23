@@ -1,2 +1,10 @@
 *.bak
 .DS_Store
+resume.pdf
+*.gz
+*.dvi
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
