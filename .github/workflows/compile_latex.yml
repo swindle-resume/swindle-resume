@@ -11,7 +11,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: resume.tex
-          post_compile: "gs -sDEVICE=pdfwrite -dPDFSETTINGS=/screen -dCompatibilityLevel=1.5 -dNOPAUSE -dQUIET -dBATCH -dPrinted=false -sOutputFile=resume.pdf resume.pdf"
+          #post_compile: "gs -sDEVICE=pdfwrite -dPDFSETTINGS=/screen -dCompatibilityLevel=1.5 -dNOPAUSE -dQUIET -dBATCH -dPrinted=false -sOutputFile=resume.pdf resume.pdf"
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
