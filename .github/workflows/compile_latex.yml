@@ -9,9 +9,9 @@ jobs:
 
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
-        args: "-dPDFSETTINGS=/printer"
         with:
           root_file: resume.tex
+          args: "-dPDFSETTINGS=/printer"
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
