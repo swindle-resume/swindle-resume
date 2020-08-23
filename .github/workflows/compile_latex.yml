@@ -9,6 +9,7 @@ jobs:
 
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
+        args: "-dPDFSETTINGS=/printer"
         with:
           root_file: resume.tex
 
