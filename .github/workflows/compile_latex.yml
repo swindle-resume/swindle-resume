@@ -26,4 +26,4 @@ jobs:
 
       - name: Create CloudFront invalidation
         run: |
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRO_ID }} --paths "index.html" "${{ secrets.RESUME_FILE_NAME }}"
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRO_ID }} --paths "/index.html" "/${{ secrets.RESUME_FILE_NAME }}"
